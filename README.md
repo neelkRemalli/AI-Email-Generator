@@ -34,29 +34,6 @@ A Python AI-powered email generation application built with the OpenAI API.
 
 ## Architecture
 
-ai-email-generator/
-│
-├── src/
-│   ├── __init__.py
-│   ├── main.py
-│   ├── config.py
-│   ├── api.py
-│   ├── exceptions.py
-│   ├── utils.py
-│   │
-│   └── services/
-│       ├── __init__.py
-│       └── email_generator_service.py
-│
-├── tests/
-│   ├── test_api.py
-│   └── test_email_generator_service.py
-│
-├── .env
-├── .env.example
-├── .gitignore
-├── requirements.txt
-└── README.md
 
 The application follows a simple layered architecture:
 
